@@ -1,6 +1,4 @@
-// Point this at your deployed backend URL after Phase 8.
-// For local testing, this is correct as-is.
-const API_URL = "http://localhost:5000/predict";
+const API_URL = "/predict";
 
 document.getElementById("churn-form").addEventListener("submit", async (e) => {
   e.preventDefault();
