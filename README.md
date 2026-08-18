@@ -1,5 +1,8 @@
 # NexaTel Churn Prediction & Retention Intelligence System
 
+🌐 **Live Deployed Web Application**: [https://telco-customer-churn-1.onrender.com](https://telco-customer-churn-1.onrender.com)  
+*(Try out live customer churn risk scoring and SHAP explanations directly in your browser!)*
+
 ## What's in here
 
 ```
