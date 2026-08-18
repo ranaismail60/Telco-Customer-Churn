@@ -1,4 +1,6 @@
-const API_URL = "/predict";
+const API_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" 
+  ? "http://localhost:5000/predict" 
+  : "/predict";
 
 document.getElementById("churn-form").addEventListener("submit", async (e) => {
   e.preventDefault();
